@@ -1,0 +1,121 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+#grad /* > * */ {
+	height:500px;
+	width: 100%;
+    background: #34F9F2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#01E2D7,#A0FAFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#01E2D7,#A0FAFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#01E2D7,#A0FAFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#01E2D7,#A0FAFF);
+	position: fixed;
+	
+	
+	
+}
+/*
+.banner {
+	height: 90px;
+	background-color: #DBF704;
+	border-bottom: #D10F00;
+	width:100%;
+	position: inherit;
+	top: 0px;
+	z-index: +1;
+
+}
+*/
+
+
+#container{
+	position: absolute;
+	top: 500px;
+	background-color: #100C0C;
+	
+}
+.waiting {
+	font-family: "Waiting For The Sunrise";
+}
+
+.covered{
+	font-family: "Covered By Your Grace";
+}
+
+/*
+div {
+	position: relative;
+}
+*/
+
+h1 {
+
+	font-size: 90px;
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+	background: transparent;
+	color: #100C0C
+
+}
+
+ul.horizontal {
+	list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+li {
+	background-color: white;
+	border: 0px;
+	padding: 0px 70px;
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+	font-family: "Architects Daughter";
+	font-weight: bold;
+}
+div.list{
+	text-align: center;
+	width: 100%;
+	background-color: white;
+}
+
+.button:link {
+	text-decoration: none;
+	color: black;
+
+
+}
+
+a {
+	color: black;
+}
+
+.button:visited {
+	text-decoration: none;
+	color: black;
+}
+.button:hover {
+	text-decoration: none;
+	background-color: #ACACAC;
+	color: black;
+}
+
+.button:active{
+	text-decoration: none;
+	background-color: #ACACAC;
+	color: black;
+}
+
+.waiting {
+	font-family: "Waiting for the Sunrise";
+	color: gray;
+}
